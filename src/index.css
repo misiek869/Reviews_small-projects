@@ -122,6 +122,12 @@ ul {
 	padding: 0;
 }
 
+main {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
 .img {
 	width: 100%;
 	display: block;
