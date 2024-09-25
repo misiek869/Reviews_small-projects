@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import { FaQuoteRight } from 'react-icons/fa'
 
 import reviews from './data'
 
 function App() {
-	const [person, setPerson] = useState<number>(0)
+	const [person, setPerson] = useState<number>(1)
 
 	const { id, name, job, image, text } = reviews[person]
 
@@ -11,7 +12,10 @@ function App() {
 		<main>
 			<div className='review'>
 				<div className='img-container'>
-					<img src={image} alt='' />
+					<img className='person-img' src={image} alt={name} />
+					<span className='quote-icon'>
+						<FaQuoteRight />
+					</span>
 				</div>
 			</div>
 		</main>

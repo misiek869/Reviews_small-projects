@@ -16,7 +16,7 @@ html {
 	--primary-200: #fed7aa;
 	--primary-300: #fdba74;
 	--primary-400: #fb923c;
-	--primary-500: ##f97316;
+	--primary-500: #f97316;
 
 	/* grey */
 	--grey-50: #f8fafc;
@@ -182,4 +182,36 @@ ul {
 
 .review:hover {
 	box-shadow: var(--shadow-3);
+}
+
+.img-container {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+}
+
+.person-img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	object-fit: cover;
+	border-radius: 50%;
+	position: relative;
+}
+
+.quote-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2.5rem;
+	height: 2.5rem;
+	display: grid;
+	place-items: center;
+	border-radius: 50%;
+	transform: translateY(25%);
+	background: var(--primary-500);
+	color: var(--white);
 }
