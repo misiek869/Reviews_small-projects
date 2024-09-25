@@ -179,3 +179,7 @@ ul {
 	transition: var(--transition);
 	text-align: center;
 }
+
+.review:hover {
+	box-shadow: var(--shadow-3);
+}

@@ -9,7 +9,11 @@ function App() {
 
 	return (
 		<main>
-			<div className='review'></div>
+			<div className='review'>
+				<div className='img-container'>
+					<img src={image} alt='' />
+				</div>
+			</div>
 		</main>
 	)
 }
