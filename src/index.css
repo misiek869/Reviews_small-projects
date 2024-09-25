@@ -226,3 +226,41 @@ ul {
 	right: -0.5rem;
 	border-radius: 50%;
 }
+
+.author {
+	margin-bottom: 0.5rem;
+}
+
+.job {
+	margin-bottom: 0.5rem;
+	text-transform: uppercase;
+	color: var(--primary-500);
+	font-size: 0.85rem;
+	font-weight: 500;
+	margin-bottom: 0.75rem;
+	letter-spacing: var(--letterSpacing);
+}
+.info {
+	margin-bottom: 0.75rem;
+	line-height: 1.5;
+	color: var(--grey-600);
+}
+
+.btn-container {
+	margin-bottom: 1rem;
+}
+
+.prev-btn,
+.next-btn {
+	color: var(--primary-700);
+	font-size: 1.25rem;
+	background: transparent;
+	border-color: transparent;
+	margin: 0 0.5rem;
+	transition: var(--transition);
+	cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+	color: var(--primary-500);
+}

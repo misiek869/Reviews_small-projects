@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { FaQuoteRight } from 'react-icons/fa'
+import { GrPrevious, GrNext } from 'react-icons/gr'
 
 import reviews from './data'
 
@@ -16,6 +17,17 @@ function App() {
 					<span className='quote-icon'>
 						<FaQuoteRight />
 					</span>
+				</div>
+				<h4 className=''>{name}</h4>
+				<p className='job'>{job}</p>
+				<p className='info'>{text}</p>
+				<div className='btn-container'>
+					<button className='prev-btn' type='button'>
+						<GrPrevious />
+					</button>
+					<button className='next-btn' type='button'>
+						<GrNext />
+					</button>
 				</div>
 			</div>
 		</main>
