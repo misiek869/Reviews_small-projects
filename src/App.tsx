@@ -7,7 +7,11 @@ function App() {
 
 	const { id, name, job, image, text } = reviews[person]
 
-	return <main></main>
+	return (
+		<main>
+			<div className='review'></div>
+		</main>
+	)
 }
 
 export default App
